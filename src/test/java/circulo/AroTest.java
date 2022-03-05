@@ -18,6 +18,9 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class AroTest {
     
+    /**
+     * Constructor por defecto
+     */
     public AroTest() {
     }
     
@@ -68,7 +71,7 @@ public class AroTest {
     }
 
     /**
-     * Test of setRadio method, of class Aro.
+     * Test of setRadio method, of class Aro para un radio negativo, radio igual a 0 e radio positivo
      */
     @Test
     public void testSetRadio() {
@@ -80,7 +83,7 @@ public class AroTest {
     }
 
     /**
-     * Test of getRadio method, of class Aro.
+     * Test of getRadio method, of class Aro para un radio positivo e un radio negativo
      */
     @Test
     public void testGetRadio() {
