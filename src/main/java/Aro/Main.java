@@ -8,6 +8,12 @@ import java.text.DecimalFormat;
  * @author Manuel
  */
 public class Main {
+
+    /**
+     * Devolve a coordenadaX, a coordenadaY, o radio, e os resultados dos métodos
+     * obterDiametro, obterCircunferencia e obterSuperficie, de dous supostos
+     * @param args
+     */
     public static void main(String[] args) {
         Aro aro = new Aro(37,43,2.5);
         String saida =
